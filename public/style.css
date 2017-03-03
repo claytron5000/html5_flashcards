@@ -1,0 +1,38 @@
+.card {
+  width: 400px;
+  height: 247px;
+  visibility: hidden;
+  transform: scale(0.1);
+  /*transition: transform 300ms;*/
+  transition: 0.5s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+.card.dialog-scale {
+  visibility: visible;
+  transform: scale(1);
+}
+.card.flip {
+  transform: rotateY(90deg);
+}
+.card.flip.flipover {
+  transform: rotateY(0deg);
+}
+.description {
+  /*display: none;*/
+}
+.flipover .description {
+  display: block;
+  text-align: center;
+}
+.element-name {
+  font-family: monospace;
+  background-color: coral;
+  width: 247px;
+  text-align: center;
+  margin:auto;
+  padding: 5px;
+}
+body {
+  background-color: #5d5a5b;
+}

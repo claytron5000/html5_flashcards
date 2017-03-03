@@ -1,0 +1,30 @@
+{
+  "name": "html5_flashcards",
+  "version": "1.0.0",
+  "description": "FlashCards to help you learn the current(tm) html elements.",
+  "main": "app.js",
+  "babel": {
+    "presets": "es2015"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel --presets es2015,stage-0 -d dist/ src/",
+    "serve": "nodemon ./src/app.js --exec babel-node"
+  },
+  "keywords": [
+    "html5",
+    "learning",
+    "flashcards"
+  ],
+  "author": "Clayton Salem",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6"
+  }
+}
