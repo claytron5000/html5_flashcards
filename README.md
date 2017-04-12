@@ -4,4 +4,4 @@ The HTML5 element set includes 113 elements, 105 if you exclude experiemental on
 
 If built well this tool could also be expanded to include CSS3, French, the Periodic table of elements, or whatever you'd like to learn!
 
-Data is scrapped from `http://htmlreference.io/`, so thanks to them for that awesome resource.
+Data is scrapped from [http://htmlreference.io/](http://htmlreference.io/), so thanks to them for that awesome resource.
